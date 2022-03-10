@@ -1,9 +1,9 @@
 import cv2
 
 #Legge immaigne con parametro
-img1 = cv2.imread("Img.png", cv2.IMREAD_UNCHANGED)
-img2 = cv2.imread("Img.png", cv2.IMREAD_GRAYSCALE)
-img3 = cv2.imread("Img.png", cv2.IMREAD_COLOR)
+img1 = cv2.imread("../materiale/Img.png", cv2.IMREAD_UNCHANGED)
+img2 = cv2.imread("../materiale/Img.png", cv2.IMREAD_GRAYSCALE)
+img3 = cv2.imread("../materiale/Img.png", cv2.IMREAD_COLOR)
 
 #Mostra immagine in finenstra (lo show, elimina l'alpha)
 cv2.imshow("I1", img1)

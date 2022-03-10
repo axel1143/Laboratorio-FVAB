@@ -1,7 +1,7 @@
 import cv2
 from matplotlib import pyplot as plt
 
-img = cv2.imread("Img.png", cv2.IMREAD_GRAYSCALE)
+img = cv2.imread("../materiale/Img.png", cv2.IMREAD_GRAYSCALE)
 img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB) # usato per invertire i modelli dell'immagine
 
 """
